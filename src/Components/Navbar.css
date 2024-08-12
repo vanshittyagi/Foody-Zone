@@ -1,0 +1,40 @@
+body{
+    background-color: #323334;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.input input{
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    background-color: #323334;
+    color: white;
+    outline: none;
+    border:2px solid red;
+}
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.mid button{
+    padding: 5px 15px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: none;
+    background-color: red;
+    color: white;
+    outline: navajowhite;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn.selected{
+    background-color: green;
+}
